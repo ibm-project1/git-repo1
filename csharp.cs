@@ -1,5 +1,4 @@
 using system.io
-import system.collections
 
 
 using namespace project{
@@ -11,6 +10,8 @@ using namespace project{
             public string Lane { get; set; }
             public str house_number { get; set; }
         }
+        public int MyProperty { get; set; }
+    public string phone { get; set; }
         console.writeline("Age: ",age, "Name:",name);
     }
 }
